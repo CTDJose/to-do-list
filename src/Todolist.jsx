@@ -1,4 +1,4 @@
-function Todolist() {
+function TodoList() {
     const todoList = [
     {id: 1, title: "wake up"},
     {id: 2, title: "brush teeth"},
@@ -11,4 +11,4 @@ function Todolist() {
     );
 }
 
-export default Todolist;
+export default TodoList;

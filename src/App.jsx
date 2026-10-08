@@ -1,14 +1,14 @@
 import './App.css'
-import Todolist from './Todolist.jsx';
-import Todoform from './Todoform.jsx';
+import TodoList from './TodoList.jsx';
+import TodoForm from './TodoForm.jsx';
 
 function App() {
 
   return (
     <div>
       <h1>To-do-list</h1>
-      <Todoform />
-      <Todolist />
+      <TodoForm />
+      <TodoList />
     </div>
       
   )

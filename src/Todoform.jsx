@@ -1,4 +1,4 @@
-function Todoform() {
+function TodoForm() {
     return (
     <form>
       <label htmlFor="todoTitle">Todo</label>
@@ -7,4 +7,4 @@ function Todoform() {
     </form>
     );
 }
-export default Todoform;
+export default TodoForm;
