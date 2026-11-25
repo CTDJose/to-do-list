@@ -1,4 +1,7 @@
+//Header.jsx
+import {useAuth} from '../contexts/AuthContext.jsx'
 function Header() {
+    const isAuthenticated = useAuth()
     return (
 <h1>Todo List</h1>
 )
